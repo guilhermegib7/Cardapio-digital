@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    background-color: #000000;
+}
+
+ header h1 {
+        color: #e63946;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 16px;
+    border-radius: 4px;
+    background-color: #2B2B2B;
+    transition: background-color 0.2s ease-in-out;
+    display: inline-block;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+nav a:hover {
+    background-color: #e63946;
+}
+
+main{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+main section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    grid-column: 1 / -1;
+}
+
+main article {
+    background-color: #242424;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:10px;
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+main article:hover{
+    transform: scale(1.03);
+    border-color: #e63946;
+}
+
+
+main article img {
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+main article h3{
+    text-align: center;
+    color: #e63946;
+}
+
+#Rodizio{
+    display:block;
+    text-align: center;
+    margin-bottom:40px;
+}
+
+#Rodizio table{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    background-color: #242424;
+    overflow:hidden;
+    border-radius: 4px;
+}
+
+
+#Rodizio th, #Rodizio td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #333333;
+}
+
+#Rodizio th{
+background-color: #e63946;
+color: #fff;
+font-weight: bold;
+}
+
+#Rodizio tr:last-child td{
+    border-bottom:none;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #000000;
+    margin-top: 60px;
+    border-top: 1px solid  #2b2b2b;
+}
+
+footer p{
+    margin: 6px;
+    color: #a0a0a0;
+    font-size: 0.95rem;
+}
+
+footer a {
+  color: #e63946;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 12px;
+  transition: opacity 0.2s ease;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
