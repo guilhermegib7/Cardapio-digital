@@ -4,13 +4,6 @@ Aplicação web de um cardápio digital moderno e responsivo para o **Restaurant
 
 ---
 
-## 📌 Demonstração
-
-🔗 **Acesse o site ao vivo:** [Ver Cardápio Online](https://guilhermegib7.github.io/cardapio-digital)
-
-*(Substitua o link acima pelo link gerado no seu GitHub Pages)*
-
----
 
 ## ✨ Funcionalidades
 
